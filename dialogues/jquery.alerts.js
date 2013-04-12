@@ -195,9 +195,9 @@
 			if( top < 0 ) top = 0;
 			if( left < 0 ) left = 0;
 			
-			// IE6 fix
+			/* // IE6 fix
 			if( $.browser.msie && parseInt($.browser.version) <= 6 ) top = top + $(window).scrollTop();
-			
+			*/
 			$("#popup_container").css({
 				top: top + 'px',
 				left: left + 'px'
