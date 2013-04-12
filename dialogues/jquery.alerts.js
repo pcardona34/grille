@@ -85,7 +85,7 @@
 			*/
 			
 			$("#popup_container").css({
-				position: absolute,
+				position: 'absolute',
 				zIndex: 99999,
 				padding: 0,
 				margin: 0
