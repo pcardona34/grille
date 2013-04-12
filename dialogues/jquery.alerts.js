@@ -80,11 +80,12 @@
 			
 			if( $.alerts.dialogClass ) $("#popup_container").addClass($.alerts.dialogClass);
 			
-			// IE6 Fix
+			/* // IE6 Fix
 			var pos = ($.browser.msie && parseInt($.browser.version) <= 6 ) ? 'absolute' : 'fixed'; 
+			*/
 			
 			$("#popup_container").css({
-				position: pos,
+				position: absolute,
 				zIndex: 99999,
 				padding: 0,
 				margin: 0
