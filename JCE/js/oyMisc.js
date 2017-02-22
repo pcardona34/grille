@@ -258,7 +258,7 @@ function oyBrowserDetection(){
 		this.version = ar[3]
 		this.compleVersion = ar[3]+ar[4]+ar[5]
 		// Adaptation ici pour Chrome ou Safari	
-	}else if($.browser.safari){
+	}else if(navigator.userAgent.indexOf('Safari') != -1 ){
 		var userAgent = navigator.userAgent.toLowerCase();
 		//alert (userAgent);
 		if ((userAgent.indexOf('safari') != -1) && !(userAgent.indexOf('chrome') != -1)) {
