@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!--
+ * Grille : index.html
+ *
+ * ( c ) 2019 Patrick Cardona
+ * Grille : Grille de mots croisés conçue au moyen de JCrux
+ * Menu des exemples
+ *
+-->
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Index des grilles</title>
+		
+		<!-- CSS -->
+		<link href="css/chargement.css" rel="stylesheet" type="text/css" />
+		<link href="css/degrade.css" rel="stylesheet" type="text/css" />
+		<link href="css/index.css" rel="stylesheet" type="text/css" />
+
+	</head>
+	
+	<body>
+	
+	<!-- Corps de l'appli -->
+	<div id="conteneur"><p class="chargement">Veuillez patienter...</p></div>
+	
+	<template id="modele">
+			
+	<header>
+		<div>
+			<h1 id="titre_principal">Index des grilles de mots croisés</h1>
+		</div>
+	</header>
+	
+	<div id="accordeons">
+    		
+    	<h3 id="titre_5e">Grilles en cinquième</h3>
+    	<div id="zone_5e" class="degrade">
+		
+			<ul>
+				<li><a href="grille53.html">Grille 53 : lexique de la dictée 53</a></li>
+			</ul>
+		
+ 		</div>
+ 		
+ 		<!--
+ 		<h3 id="titre_3e">Grilles en troisième</h3>
+    	<div id="zone_3e" class="degrade">
+		
+			<ul>
+				<li><a href="grille33.html">Grille 33 : lexique de la dictée 33</a></li>
+			</ul>
+		
+ 		</div>
+ 		-->
+      		
+	</div>
+	
+	
+    
+      <footer>
+		
+			Grilles proposées par Patrick Cardona
+		
+	</footer>
+
+	</template>
+
+     <script src="js/accordeons.js"></script>
+     <script src="js/index.js"></script>
+     </body>
+</html>
